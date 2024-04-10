@@ -1,4 +1,10 @@
-## Load packages 
+###############################################
+############## Figure 1 #######################
+##############################################
+
+# will create Fig 1 in the main text 
+
+########### Load packages ################ 
 library(reshape2)
 library(ggplot2)
 library(dplyr)

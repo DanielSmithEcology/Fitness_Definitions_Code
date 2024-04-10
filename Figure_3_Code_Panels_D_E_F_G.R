@@ -22,6 +22,11 @@ library(ggh4x)
 ############################
 
 # Hawk_Dove_Change: returns an single timepstep of the stochastic Hawk-Dove game 
+
+### Parameters###
+#D number of Doves, H number of Hawks, b0 baseline births per timestep, d0 mortality probability per timestep
+# B benefit of getting resource, C Cost of fighting, s strength of selection, a strength of density-dependence
+# u mutation rate (not used in any simulations), k (a dummy parameter; never used, but was important for testing; kindly ignore it)
 Hawk_Dove_Change <- function(H,D,b0,d0,B,C,s,a,u,k){
   
   H2 <- rbinom(1,H,1-d0) # surviving Hawks 
