@@ -81,7 +81,7 @@ N_R.Burn[1] <- 50 # initial abunance of resident
 f_good <- 2.25 # fecundity of good year
 f_bad  <- 0 # fecundity of bad year 
 p.good <- .95 # probability of good year
-s0 <- .95 # probability of survival in seed bank
+s0 <- .95 # probability of survival in seed bank; this is equal to 1/d in the main text
 gR <- .2 # resident germination probability 
 a0 <- .075 # density--dependent parameter 
 

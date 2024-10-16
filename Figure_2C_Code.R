@@ -234,7 +234,7 @@ Prob_Sim <- function(DELTA,f_bad,f_good,p.good,s,a,Sto,Sim_Trials){
 ###################
 
 a <- .075 # density dependence 
-s <- .95  # Survival between years 
+s <- .95  # Survival between years in seed bank; this is equal to 1/d in the main text
 f_good <- 2.25 # fecundity of good year
 f_bad  <- 0 # fecundity of bad year 
 p.good <- .95 # probability of good year
